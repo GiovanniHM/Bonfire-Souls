@@ -11,3 +11,24 @@ body{
     text-align: center;
     font-family: 'Courier New', Courier, monospace;
 }
+
+.cabecera{
+    border: 1px solid blue;
+}
+
+header{
+    margin: 0;
+    padding: 0;
+    background: black;
+    color: white;
+    display: flex;
+    text-decoration: none;
+    justify-content: space-between;
+    align-items: center;
+
+
+}
+body{
+    margin: 0;
+    padding: 0;
+}
