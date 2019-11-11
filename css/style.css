@@ -2,6 +2,10 @@
     color: white;
 }
 
+.parrafos{
+border: 1px solid brown;
+}
+
 body{
     background: orange;
     text-align: center;
