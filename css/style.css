@@ -2,9 +2,6 @@
     color: white;
 }
 
-.parrafos{
-border: 1px solid white;
-}
 
 body{
     background: orange;
@@ -12,29 +9,67 @@ body{
     font-family: 'Courier New', Courier, monospace;
 }
 
-.cabecera{
-    border: 1px solid white;
-}
-
-header{
-    margin: 0;
-    padding: 0;
-    background: black;
-    color: white;
-    display: flex;
-    text-decoration: none;
-    justify-content: space-between;
-    align-items: center;
 
 
-}
 body{
     margin: 0;
     padding: 0;
 }
 
-footer{
-    background: black;
-    color: white;
-   
+ol,
+ul
+{
+    margin: 0;
+    padding: 0;
+    list-style: none;
 }
+
+
+.cabecera{
+    border: 1px solid blue;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    background: white;
+}
+
+.cabecera-nav
+{
+     margin: 10px;
+     text-decoration: none;
+     display: inline;
+     color: black;
+     
+
+}
+
+.cabecera-nav li{
+
+    display: inline;
+}
+
+.cabecera-nav a
+{
+  
+    text-decoration: none;
+
+}
+
+
+
+.cabecera-container-logo
+{
+    margin: 10px;
+}
+
+.container-img
+{
+margin: 0px;
+
+}
+.container-img h5
+{
+margin: 0px;
+
+}
+
